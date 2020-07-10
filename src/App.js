@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import moment from 'moment';
-
 import Container from 'react-bootstrap/Container';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Row from 'react-bootstrap/Row';
@@ -8,9 +7,6 @@ import Col from 'react-bootstrap/Col';
 import {TimerDisplay} from '../src/TimerDisplay';
 import {ChooseWorkTime, ChooseBreakTime} from '../src/ChangeTime';
 import './App.css';
-import './scss/_variables.scss';
-
-
 
 function App(props) {
   const work= moment.duration({'minutes': 25});
